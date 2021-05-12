@@ -2,11 +2,13 @@ public class Car
 {
      private String model;
      private String make;
+     private int year;
 
-     public Car(String model, String make)
+     public Car(String model, String make, int year)
      {
           this.model = model;
           this.make = make;
+          this.year = year;
      }
 
      public String getModel()
