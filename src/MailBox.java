@@ -1,10 +1,12 @@
 public class MailBox
 {
      private Person person;
+     private int age;
 
-     public MailBox(Person person)
+     public MailBox(Person person, int age)
      {
           this.person = person;
+          this.age= age;
      }
 
      public Person getPerson()
