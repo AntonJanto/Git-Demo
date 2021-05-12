@@ -2,13 +2,13 @@ public class MailBox
 {
      private Person person;
      private int age;
-     private String name;
+     private String height;
 
-     public MailBox(Person person, int age, String name)
+     public MailBox(Person person, int age, String height)
      {
           this.person = person;
           this.age= age;
-          this.name = name;
+          this.height = height;
      }
 
      public Person getPerson()
